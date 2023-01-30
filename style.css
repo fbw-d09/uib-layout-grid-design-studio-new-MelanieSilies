@@ -15,6 +15,7 @@ a {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     height: 30px;
+    gap: 10px;
 } 
 
 .header b {
@@ -103,7 +104,7 @@ a {
     grid-row: 3/5;
     background-image: url(./assets/item-eight.jpeg);
     background-position: center center;
-    background-size:cover ;
+    background-size:contain ;
 }
 
 .box9 {
@@ -119,6 +120,7 @@ a {
     display: grid;
     grid-template-columns: repeat(8,1fr);
     vertical-align: middle;
+    gap: 10px;
 }
 .footer b {
     grid-column: 1;
